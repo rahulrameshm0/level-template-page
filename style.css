@@ -43,7 +43,7 @@ html{
 }
 
 .menu-list a:hover{
-    background-color: #e95050;
+    background-color: #ee5057;
     color: #fff;
     
 }
@@ -55,8 +55,7 @@ html{
 
 .section-1{
     background-image: url(img/bg-img-1.jpg);
-    width: 100vw;
-    height: 50vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,10 +74,24 @@ html{
     border: none;
     height: 5vh;
     width: 100%;
-    margin-top: 40%;
+    margin-top: 40%;    
 }
 
 .selection{
     text-align: center;
     height: 5vh;
+    width: 100%;
 }
+
+.user-information input[type="text"]{    
+    padding: 2.4rem;
+}
+
+.option-tag{
+    display: flex;
+}
+
+input:focus{
+    border-color: #ee5057;
+}
+
