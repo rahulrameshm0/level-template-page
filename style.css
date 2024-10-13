@@ -8,22 +8,23 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
-.nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem 10.4rem;
-}
-
 html{
     font-size: 62.5%;
 }
 
-.img{
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem 6.4rem;
+}
+
+.navbar-logo{
     display: flex;
     align-items: center;
     gap: 1.8rem;
 }
+
 
 .menu-list{
     display: flex;
@@ -45,12 +46,12 @@ html{
 .menu-list a:hover{
     background-color: #ee5057;
     color: #fff;
-    
 }
 
 
 .level-header{
-    font-size: 2.8rem;
+    font-size: 3.2rem;
+    font-weight: 600;
 }   
 
 .section-1{
@@ -62,36 +63,94 @@ html{
 }
 
 .user-information{
-    text-align: center;
-    padding-top: 15%;
-    display: grid;
+    text-align: center; 
+    display: grid;  
     grid-template-columns: repeat(3,1fr);
     gap: 1.8rem;
     padding: 0 22.4rem; 
+    flex-wrap:wrap;
+    padding-top: 12%;
 }
+
 
 .user-information input{
     border: none;
     height: 5vh;
     width: 100%;
-    margin-top: 40%;    
+    outline: none;
+    box-shadow: 0 1px 2px rgb(0,0,0,0.5);
+    /* margin-top: 50%;*/
+}
+
+.user-information input:focus{
+    border: 1px solid #ee5057;
 }
 
 .selection{
     text-align: center;
     height: 5vh;
-    width: 100%;
+    width:100%;
 }
 
 .user-information input[type="text"]{    
     padding: 2.4rem;
+    font-size: 1.2rem;
+    padding-left: 5.8rem;
 }
 
 .option-tag{
     display: flex;
+    gap: 1.8rem;
+}
+
+.selection{
+    outline: none;
+}
+
+.selection:focus{
+    border: 1px solid #ee5057;
 }
 
 input:focus{
     border-color: #ee5057;
 }
 
+.btn{
+    color: #fff;
+    text-decoration: none;
+    background-color:#ee5057;
+    padding: 0.5rem 3.4rem;
+    border-radius: 0;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: #aa363c;
+    color: #fff;
+}
+
+.input-icon-1{
+    position: absolute;
+    height: 2.8rem;
+    width: 3.4rem;
+    color: #ee5057;
+}
+.input-icon-2{
+    position: absolute;
+    height: 2.8rem;
+    width: 3.4rem;
+    color: #ee5057;
+}
+.input-icon-3{
+    position: absolute;
+    height: 2.8rem;
+    width: 3.4rem;
+    color: #ee5057;
+}
+
+label{
+    position: relative;
+    top: 25%;
+    right:45%;
+}
