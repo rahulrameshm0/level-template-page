@@ -313,8 +313,8 @@ label{
 
 .figure-container{
     background-color: #fff;
-    margin-top: 6.4rem;
     padding-bottom: 1.8rem;
+    margin-top: 6.4rem;
 }
 
 .figure-container,
@@ -346,4 +346,60 @@ label{
 
 .btn-3:hover{
     background-color: #dd4149;
+}
+
+.places{
+    background-color: #fff;
+    margin-top: 6.4rem;
+}
+
+.destination-img{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    padding: 2.4rem;
+    /* padding-top: 3.4rem; */
+}
+
+.destination-img img{
+    height: 10vh;
+    width: 8vw;
+}
+
+.img-list{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    background-color: #f0eeee;
+    transition: all 0.3s;
+}
+
+.img-list:hover{
+    background-color: #d4d4d4;
+}
+
+.img-list a{
+    text-decoration: none;
+    font-size:1.8rem;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    letter-spacing:3;
+    transition: all 0.3s;
+}
+
+.img-list a:hover{
+    color: #ee5057;
+}
+
+
+.destination-head{
+    background-color: #ee5057;
+    padding: 1.4rem;
+    color: #ffff
+}
+
+
+.destination-head h4{
+    font-size: 1.8rem;
 }
