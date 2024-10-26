@@ -303,6 +303,7 @@ label{
 
 .section-4{
     background-color: #fbf9f9;
+    padding: 6.4rem;
 }
 
 .container-3{
@@ -403,3 +404,11 @@ label{
 .destination-head h4{
     font-size: 1.8rem;
 }
+
+ .media, source{
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width:100vw;
+    height: 50vh;
+    display: block;
+} 
+
