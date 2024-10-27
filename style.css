@@ -12,11 +12,12 @@ html{
     font-size: 62.5%;
 }
 
+
 .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.8rem 6.4rem;
+    padding: 2.4rem 6.4rem;
 }
 
 .navbar-logo{
@@ -39,8 +40,9 @@ html{
     font-size: 1.6rem;
     font-weight: 200;
     /* border-right: 1px solid black; */
-    padding: 4.2rem;
+    padding: 1.8rem;
     transition: all 0.3s;
+    border-radius: 1.6rem;
 }
 
 .menu-list a:hover{
@@ -53,6 +55,12 @@ html{
     font-size: 3.2rem;
     font-weight: 600;
 }   
+
+
+/* **************
+    SECTION-1
+******************/
+
 
 .section-1{
     background-image: url(img/bg-img-1.jpg);
@@ -169,20 +177,20 @@ label{
 
 .label-1{
     position: absolute;
-    top: 50%;
+    top: 49%;
     right:80%;
 }
 
 
 .label-2{
     position: absolute;
-    top: 50%;
+    top: 49%;
     right:57%;
 
 }
 .label-3{
     position: absolute;
-    top: 50%;
+    top: 49%;
     right:35%;
 }
 
@@ -410,5 +418,81 @@ label{
     width:100vw;
     height: 50vh;
     display: block;
-} 
+}
 
+
+/****************
+    SECTION-5 
+ ****************/
+
+.section-5{
+    background-image: url(img/bg-img-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.4rem 0;
+}
+
+.container-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12.4rem;
+    padding: 2.4rem 18.6rem;
+}
+
+.article-img{
+    padding: 2.4rem;
+    box-shadow: 0 0rem 2rem 0.2rem rgba(0,0,0,0.1);
+}
+
+.article-sec{
+    display: flex;
+    /* align-items: center; */
+    gap: 2.4rem;
+}
+
+.article-img, img{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-head h4{
+    font-size: 5.4rem;
+    line-height: 0.5;
+}
+
+.article-head p{
+    font-size:2.8rem;
+    color: #ee5057;
+    font-weight: 600;
+}
+.testimonial-p{
+    font-size: 1.4rem;
+    color: #a19a9a;
+}
+
+.testimonial-h{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #ee5057;
+}
+
+.testimonial-h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+.article-sec a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ee5057;
+    font-weight: 600;
+    transition:all 0.3s;
+}
+
+.article-sec a:hover{
+    color: #b75257;
+}
